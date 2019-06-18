@@ -1,16 +1,31 @@
 {
-  "name": "dev-flow-heroku",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
   "engines": {
-      "node": "12.3.1"
-  }
+    "node": "10.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --watch ./api server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "~1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petarnonkovic/dev-flow-heroku.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "jest"
+  ],
+  "license": "MIT"
 }

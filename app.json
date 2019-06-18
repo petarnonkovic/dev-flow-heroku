@@ -1,0 +1,7 @@
+{
+  "name": "Express:Heroku api",
+  "description": "Heroku deploy node with staging, development and production",
+  "repository": "https://github.com/petarnonkovic/dev-flow-heroku.git",
+  "logo": "",
+  "keywords": ["node", "express", "heroku", "jest"]
+}
