@@ -8,13 +8,15 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon --watch ./api server.js",
+    "dev": "nodemon",
     "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "babel-jest": "~24.8.0",
+    "jest": "~24.8.0",
     "nodemon": "~1.19.1"
   },
   "repository": {

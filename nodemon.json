@@ -1,0 +1,6 @@
+{
+    "exec": "npm start",
+    "watch": ["./api"],
+    "ignore": ["./tests", "README"],
+    "ext": ".js"
+}
